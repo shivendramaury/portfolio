@@ -106,7 +106,7 @@ function Hero() {
                 rel="noreferrer"
               >
                 <img
-                  src="./src/assets/Codolio.svg"
+                  src="/Codolio.svg"
                   alt="Codolio"
                   className="w-8 h-8 brightness-75 opacity-80 hover:opacity-100 hover:scale-105 transition duration-300"
                 />
@@ -137,7 +137,7 @@ function Hero() {
               <div className="w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border-2 border-accent shadow-xl transition duration-300 hover:scale-105 hover:shadow-2xl">
 
                 <img
-                  src="./src/assets/Profile.jpg"
+                  src="/Profile.jpg"
                   alt="Shivendra Maurya"
                   className="w-full h-full object-cover"
                 />
