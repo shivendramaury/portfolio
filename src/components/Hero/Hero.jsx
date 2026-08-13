@@ -88,15 +88,15 @@ function Hero() {
 
             <div className="flex justify-center lg:justify-start items-center gap-6 pt-6">
 
-              <a href="#">
+              <a href="https://www.linkedin.com/in/shivendramaury/">
                 <FaLinkedin className="text-3xl text-secondary hover:text-accent transition duration-300" />
               </a>
 
-              <a href="#">
+              <a href="https://leetcode.com/u/Shivendramaurya_se/">
                 <SiLeetcode className="text-3xl text-secondary hover:text-accent transition duration-300" />
               </a>
 
-              <a href="#">
+              <a href="https://github.com/shivendramaury">
                 <FaGithub className="text-3xl text-secondary hover:text-accent transition duration-300" />
               </a>
 
