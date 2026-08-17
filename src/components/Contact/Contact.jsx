@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import Reveal from "../Reveal/Reveal";
 import {
   FaPhoneAlt,
   FaEnvelope,
@@ -64,6 +64,7 @@ function Contact() {
       id="contact"
       className="py-20 mb-10 border-t border-border"
     >
+      <Reveal>
       <div className="max-w-6xl mx-auto px-6 lg:px-16 mt-5">
 
   
@@ -280,6 +281,7 @@ function Contact() {
         </div>
 
       </div>
+      </Reveal>
     </section>
   );
 }

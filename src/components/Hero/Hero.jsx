@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import Reveal from "../Reveal/Reveal";
 import {
   FaGithub,
   FaLinkedin,
@@ -31,6 +31,7 @@ function Hero() {
       id="home"
       className="pt-16 pb-15"
     >
+      <Reveal>
 
       <div className="max-w-6xl mx-auto px-16 w-full mb-10">
 
@@ -151,6 +152,7 @@ function Hero() {
         </div>
 
       </div>
+      </Reveal>
 
     </section>
   );

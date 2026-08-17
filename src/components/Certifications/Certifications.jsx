@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import Reveal from "../Reveal/Reveal";
 import OracleAI from "../../assets/certifications/oracle-ai.jpg";
 import Databricks from "../../assets/certifications/databricks.jpg";
 import Backend from "../../assets/certifications/Backend.jpg";
@@ -42,6 +43,7 @@ function Certifications() {
 
   return (
     <section id="certifications" className="py-20 mb-15 border-t border-border">
+      <Reveal>
       <div className="max-w-6xl mx-auto px-6 lg:px-16 mt-5">
 
         {/* Heading */}
@@ -130,6 +132,7 @@ function Certifications() {
 
         </div>
       )}
+      </Reveal>
     </section>
   );
 }

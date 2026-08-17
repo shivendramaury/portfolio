@@ -2,6 +2,7 @@ import Staynest from "../../assets/Project/Staynest.png";
 import Portfolio from "../../assets/Project/Portfolio.png";
 import Aktu from "../../assets/Project/Aktu.png";
 import { FaGithub } from "react-icons/fa";
+import Reveal from "../Reveal/Reveal";
 
 function Projects(){
     const projects = [
@@ -55,6 +56,7 @@ function Projects(){
 
     return(
         <section id="projects" className="py-20 mb-15 border-t border-border">
+          <Reveal>
             <div className="max-w-6xl mx-auto px-6 lg:px-16 mt-5">
 
                 <h2 className="text-4xl font-bold text-center text-primary">
@@ -135,6 +137,7 @@ function Projects(){
                     More Projects
                 </a>
             </div>
+            </Reveal>
         </section>
     )
 }

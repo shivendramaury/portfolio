@@ -1,6 +1,8 @@
+import Reveal from "../Reveal/Reveal";
 function Skills() {
     return (
         <section id="skills" className="py-20 mb-15 border-t border-border">
+          <Reveal>
             <div className="max-w-6xl mx-auto px-6 lg:px-16 mt-5">
 
                 {/* heading */}
@@ -110,6 +112,7 @@ function Skills() {
 
                 </div>
             </div>
+            </Reveal>
 
         </section>
     )

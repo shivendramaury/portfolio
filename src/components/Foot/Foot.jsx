@@ -3,10 +3,12 @@ import {
     FaLinkedin,
 } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import Reveal from "../Reveal/Reveal";
 
 function Foot() {
     return (
         <section className="border-t border-border py-8 mt-20">
+            <Reveal>
             <div className="max-w-6xl mx-auto px-6 lg:px-16 mt-5 mb-5">
 
                 {/* Logo */}
@@ -53,6 +55,7 @@ function Foot() {
                     © 2026 Shivendra Maurya. All Rights Reserved.
                 </p>
             </div>
+            </Reveal>
         </section>
     );
 }
