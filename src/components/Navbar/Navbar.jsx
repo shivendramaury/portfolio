@@ -9,6 +9,7 @@ function Navbar() {
   const navLinks = [
     { id: "home", title: "Home" },
     { id: "about", title: "About" },
+    { id: "education", title: "Education"},
     { id: "skills", title: "Skills" },
     { id: "certifications", title: "Certifications" },
     { id: "projects", title: "Projects" },
